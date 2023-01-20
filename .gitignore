@@ -1,23 +1,122 @@
-# Compiled class file
-*.class
+# https://www.toptal.com/developers/gitignore/api/windows,java,eclipse에서 생성
+# https://www.toptal.com/developers/gitignore?templates=windows,java,eclipse에서 편집
 
-# Log file
-*.log
+### 이클립스 ###
+.메타데이터
+큰 상자/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.설정/
+.loadpath
+.추천자
 
-# BlueJ files
+# 외부 도구 빌더
+.externalToolBuilders/
+
+# 로컬에 저장된 "Eclipse 실행 구성"
+*.시작하다
+
+# PyDev 전용(Eclipse용 Python IDE)
+*.pydevproject
+
+# CDT 전용(C/C++ 개발 도구)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# 자바 주석 처리기(APT)
+.factorypath
+
+# PDT 전용(PHP 개발 도구)
+.buildpath
+
+# sbteclipse 플러그인
+.표적
+
+# 턴 플러그인
+.tern 프로젝트
+
+# TeXlipse 플러그인
+.texlipse
+
+# STS(스프링 툴 스위트)
+.springBeans
+
+# 코드 추천자
+.추천자/
+
+# 주석 처리
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE 특정(Eclipse용 Scala 및 Java 개발)
+.cache-main
+.scala_dependencies
+.워크시트
+
+# 프로젝트 설명 파일을 무시하려면 이 줄의 주석을 제거하십시오.
+# 일반적으로 이 파일은 빌드/종속성 구성을 포함하는 경우 추적됩니다.
+#.프로젝트
+
+### 이클립스 패치 ###
+# 스프링 부트 툴링
+.sts4-캐시/
+
+### 자바 ###
+# 컴파일된 클래스 파일
+*.수업
+
+# 로그 파일
+*.통나무
+
+# BlueJ 파일
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Java용 모바일 도구(J2ME)
 .mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
+# 패키지 파일 #
+*.항아리
+*.전쟁
 *.nar
-*.ear
-*.zip
+*.귀
+*.지퍼
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# 가상 머신 충돌 로그, http://www.java.com/en/download/help/error_hotspot.xml 참조
 hs_err_pid*
+replay_pid*
+
+### 윈도우 ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db:암호화 가능
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.stackdump
+
+# 폴더 구성 파일
+[DD]esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$RECLECLE.BIN/
+
+# 윈도우 인스톨러 파일
+*.택시
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 단축키
+*.lnk
+
+# 끝 https://www.toptal.com/developers/gitignore/api/windows,java,eclipse
