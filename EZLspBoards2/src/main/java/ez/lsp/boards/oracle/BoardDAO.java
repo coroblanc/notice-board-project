@@ -42,6 +42,8 @@ public class BoardDAO {
 
 	// 게시판 리스트
 	public Vector<BoardBean> getBoardList(String keyField, String keyWord, int start, int end) {
+		System.out.printf("[getBoardList] keyField(%s), keyWord(%s), start(%d), end(%d)\n", keyField, keyWord, start, end);
+		
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;

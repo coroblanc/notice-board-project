@@ -42,8 +42,8 @@
 		nowPage = Integer.parseInt(request.getParameter("nowPage"));
 	}
 	
-	start = (nowPage * numPerPage) - numPerPage;
-	end = numPerPage;
+	start = (nowPage * numPerPage) - numPerPage +1;
+	end = start + numPerPage -1;
 	 
 	totalRecord = bMgr.getTotalCount(keyField, keyWord);
 	totalPage = (int)Math.ceil((double)totalRecord / numPerPage);	// 전체페이지수
@@ -54,7 +54,7 @@
 
 <html>
 <head>
-<title>EZLSP Boards</title>
+<title>게시판</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 	function list() {
@@ -109,7 +109,7 @@
       }
     
 </style>
-<h1>EZLSP Boards</h1>
+<h1>게시판</h1>
 </head>
 
 <body bgcolor="#CCFFCC">

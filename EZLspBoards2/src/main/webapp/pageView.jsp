@@ -27,7 +27,7 @@
 %>
 <html>
 <head>
-<title>페이징 & 블럭 처리 테스트</title>
+<title>블럭 처리 테스트</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 	function pageing(page) {
@@ -44,7 +44,7 @@
 <body bgcolor="#FFFFCC">
 <div align="center">
 <br/>
-<h2>페이징 & 블럭 처리 테스트</h2>
+<h2>블럭 처리 테스트</h2>
 <br/>
 	<table width="600">
 			<tr align="center">

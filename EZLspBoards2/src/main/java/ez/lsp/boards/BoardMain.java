@@ -30,7 +30,7 @@ public class BoardMain {
 		try {
 			con  = pool.getConnection();
 			sql  = "insert into ezlspboards (num,name,subject,content,ref,pos,depth,regdate,pass,count,ip,filename,filesize) ";
-			sql += "values(ezlspboards_seq.nextval, ?, ?, ?, 0, 0, 0, sysdate, '1111', 0, '127.0.0.1', null, 0)";
+			sql += "values(ezlspboards_seq.nextval, ?, ?, ?, ezlspboards_seq.currval, 0, 0, sysdate, '1111', 0, '127.0.0.1', null, 0)";
 			
 			stmt = con.prepareStatement(sql);
 			for (int i = 0; i < MAX_TEXTDATA; i++) {
